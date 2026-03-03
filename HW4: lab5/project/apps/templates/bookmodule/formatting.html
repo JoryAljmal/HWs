@@ -1,0 +1,24 @@
+{% extends "layouts/base.html" %}
+{% load static %}
+
+{% block content %}
+<div style=" font-family: Arial, sans-serif; font-size: 15px;">
+    
+    <h1 style="background-color: #e2efda;font-family: 'Times New Roman', serif; color: #385723; padding: 20px; border: 1px solid #c5e0b4; font-size: 32px; font-weight: bold; margin-bottom: 0;">
+        Example of Formatting tags
+    </h1>
+
+    <div style="background-color: #f2f2f2; padding: 25px; border: 1px solid #d9d9d9; border-top: none; line-height: 1.1;">
+        <p>This text has <b>subtext</b> using b tag</p>
+        <p>This text has <strong>subtext</strong> using strong tag</p>
+        <p>This text has <i>subtext</i> using i tag</p>
+        <p>This text has <em>subtext</em> using emphasize tag</p>
+        <p>This text has <small>subtext</small> using small tag</p>
+        <p>This text has <mark>subtext</mark> using mark tag</p>
+        <p>This text has <del>subtext</del> using del tag</p>
+        <p>This text has <ins>subtext</ins> using ins tag</p>
+        <p>This text has X<sub>subtext using sub tag</sub></p>
+        <p>This text has X<sup>subtext using sup tag</sup></p>
+    </div>
+</div>
+{% endblock content %}
